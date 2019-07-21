@@ -1,0 +1,26 @@
+---
+title: "test_git"
+author: "Christopher Eshleman"
+date: "7/21/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Just monkeying around. 
+
+```{r cars}
+summary(cars)
+```
+
+## Don't need plots. 
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Finito. 
